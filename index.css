@@ -1,0 +1,102 @@
+* {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 1;
+    font-family: Helvetica;
+    text-align: center;
+    list-style-type: none;
+}
+.header {
+    top:0px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    max-height: 50px;
+    margin-left: 10px; 
+}
+
+.mission-container {
+    border-top: 1px solid seashell;
+    margin: 70px 20px 0px;
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    background-image: url("./Resources/img-mission-background.jpeg");
+}
+.mission-statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+.tmonth {
+    text-align: center;
+    margin-top: -180px;
+    margin-left: 20px;
+}
+.teas {
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+.tlocation {
+    text-align: center;
+}
+.contact {
+    text-align: center;
+}
+.navbutton {
+    text-decoration: underline;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: right;
+    opacity: 1;
+}
+.teabox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.teas p {
+    text-align: justify;
+    display: inline-flex; 
+    margin: 0 auto;
+} 
+.tlocation {
+    background-image: url('./Resources/img-locations-background.jpeg');
+    height: 500px;
+    width: 1200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+    padding: 15px 40px;
+}
+.tlocation h2 {
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.tlocationuno,
+.tlocationdos,
+.tlocationtres {
+    display: inline-flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
